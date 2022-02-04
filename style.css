@@ -1,9 +1,17 @@
 h1{
     font-size: 50px;
+
     
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
 }
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
 }
 .head-name{
     color:orange
@@ -17,3 +25,31 @@ body{
 .width1 img{
     width: 100%;
 }
+.bg{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+    
+}
+.button{
+    text-decoration: none;
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 800;
+    background-image: linear-gradient(40deg,lightsalmon,tomato);
+
+
+}
+.bg2{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin: none;
+
+}
+
