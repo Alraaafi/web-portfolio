@@ -13,7 +13,7 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0px;
 }
-.head-name{
+.orange-name{
     color:orange
 }
 .width1{
@@ -52,4 +52,29 @@ section{
     margin: none;
 
 }
+.border{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 8px;
+    height: 70%;
+}
+.bg3{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
 
+#side1{
+    border-left: 7px solid;
+    border-image:linear-gradient(180deg,lightsalmon,tomato);
+    border-image-slice: 1;
+    background-color: rgb(255, 255, 255);
+}
+#side2{
+    border-left: 7px solid;
+    border-image:linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 15px;
+}
